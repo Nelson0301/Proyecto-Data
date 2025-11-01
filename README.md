@@ -1,6 +1,7 @@
 # Proyecto-Data
 Ciencia de Datos
 
+---
 ## Presentación del Proyecto
 
 ![Lámina 1](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/01.%20Descripcion%20Empresa.png) 
