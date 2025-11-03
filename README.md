@@ -66,7 +66,7 @@ Ciencia de Datos
 ### Analiza el Ingreso Mensual (VAR07) contra la Mora. Confirma que los clientes que caen en mora (MORA60=1) tienen un ingreso mensual promedio más bajo (S/ 3,745) que aquellos que no caen en mora (S/ 5,745).
 ---
 
-![Lámina 12](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/12.%20EDA-Analisis%20Univariante-Bivariante.png)
+![Lámina 12](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/12-%20EDA-An%C3%A1lisis%20Univariante-Bivariante.png)
 
 ### Analiza la Línea de Crédito (VAR08) contra la Mora. La conclusión es directa: "Clientes con MENOR Monto LÍNEA DE CRÉDITO --> han incurrido en MORA>60DÍAS".
 ---
@@ -76,7 +76,7 @@ Ciencia de Datos
 ### Analiza el Saldo Deudor (VAR09) contra la Mora. La conclusión es directa: "Clientes con MAYOR Monto SALDO DEUDOR --> han incurrido en MORA<60DÍAS".
 ---
 
-![Lámina 14](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/14-%20EDA-An%C3%A1lisis%20Bivariante.png)
+![Lámina 14](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/14.%20EDA-An%C3%A1lisis%20Bivariante.png)
 
 ### Analiza la Antiguedad de la Tarjeta de Crédito (VAR05) contra la Mora. Confirma que los clientes que caen en mora (MORA60=1) tienen una tarjeta de credito mas nuevo, lo que significa que representan clientes recientemente nuevos.
 ---
@@ -96,7 +96,7 @@ Ciencia de Datos
 ### Vemos que la mediana es mayor en los clientes que caen en mora en el nivel de Educacion(Sin Educacion) respecto a la linea de credito y el ingreso mensual.
 ---
 
-![Lámina 18](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/18.%20EDA-Diagrama%20de%20barras%20apiladas.png)
+![Lámina 18](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/18-%20EDA-Diagrama%20de%20barras%20apiladas.png)
 
 ### Más del 64% de los clientes, independientemente del Tipo de Vivienda, presenta MORA >60 DÍAS.
 ### El 84% de clientes en tipo de Vivienda OTRAS han presentado MORA60 vs el 64% de clientes con vivienda PROPIA.
@@ -161,7 +161,7 @@ Ciencia de Datos
 
 ---
 
-![Lámina 31](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/31.%20Estrategias%20Mejora.png)
+![Lámina 31](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/31-%20Estrategias%20Mejora.png)
 
 ---
 
