@@ -121,27 +121,51 @@ Ciencia de Datos
 
 ![Lámina 22](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/22.%20Random%20Forest.png)
 
+### Este modelo funciona creando una gran cantidad de "árboles de decisión" (como diagramas de flujo) y luego hace que voten entre todos para obtener el resultado más preciso. Su ventaja es que es muy robusto y evita el "sobreajuste" (memorizar los datos en lugar de aprender).
+---
+
 ![Lámina 23](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/23.%20Regresi%C3%B3n%20Log%C3%ADstica.png)
+
+### Es un modelo estadístico clásico usado para clasificación binaria (Sí/No). No te dice simplemente "Mora" o "No Mora", sino que calcula la probabilidad (ej. "este cliente tiene un 70% de probabilidad de mora"). Es rápido y fácil de interpretar.
+---
 
 ![Lámina 24](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/24.%20XGBOOST.png)
 
+### Es un modelo avanzado y muy potente (basado en "Gradient Boosting"). Es conocido en la industria por su alto rendimiento y velocidad. Es uno de los modelos más usados en competencias de ciencia de datos por su gran precisión.
+---
+
 ![Lámina 25](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/25.%20LightGBM.png)
+
+### Este es el competidor directo de XGBoost. También es un modelo "Gradient Boosting", pero su principal ventaja es que es extremadamente rápido y consume menos memoria. Es ideal para manejar grandes volúmenes de datos, como los de un banco.
+---
 
 ![Lámina 26](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/26.%20Decision%20Tree%20Classifier.png)
 
+### Este es el modelo más simple, la base del "Random Forest". Crea un único árbol de reglas "si... entonces..." (ej. SI el ingreso es < 2000 Y los días de atraso > 10 ENTONCES hay alta probabilidad de mora). Es fácil de entender, pero menos preciso que los otros.
+---
+
 ![Lámina 27](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/27.%20Comparaci%C3%B3n%20de%20Modelos.png)
+
+### La tabla compara las métricas (ROC_AUC, F1, Accuracy) de los 5 modelos. La conclusión es clara: "CONSIDERANDO LOS PRINCIPALES INDICADORES SE DECIDE UTILIZAR EL MODELO LightGBM".
+---
 
 ![Lámina 28](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/28.%20Predicci%C3%B3n%20nueva%20data%20set.png)
 
+---
+
 ![Lámina 29](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/29.%20Resultados.png)
+
+---
 
 ![Lámina 30](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/30.%20Perfiles.png)
 
+---
+
 ![Lámina 31](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/31.%20Estrategias%20Mejora.png)
+
 ---
 
 ![Lámina 32](https://github.com/Nelson0301/Proyecto-Data/blob/main/imagenes/32.%20Clientes%20Bajamente%20probable.png)
----
 
 ### El diagrama muestra que el bajo riesgo (37% de mora real) no es solo para "vigilar", sino una oportunidad de negocio. La acción recomendada es Cross-Selling o aumentar la línea de crédito, transformando a este cliente en una fuente de ingresos.
 ---
@@ -156,4 +180,4 @@ Ciencia de Datos
 ### Para el riesgo alto (94% mora real), el flujo es de contención y recuperación. El cliente pasa directo al área de Cobranza, se le aplican restricciones de crédito y alertas tempranas (SMS/Email) para reducir la pérdida.
 ---
 
-## CONCLUSIÓN: El uso del modelo LightGBM permite a INCABANK tomar decisiones más rápidas y precisas. El banco ahora puede "anticipar el comportamiento de los clientes", optimizar la gestión del riesgo y diseñar acciones preventivas, mejorando la eficiencia y competitividad.
+### CONCLUSIÓN: El uso del modelo LightGBM permite a INCABANK tomar decisiones más rápidas y precisas. El banco ahora puede "anticipar el comportamiento de los clientes", optimizar la gestión del riesgo y diseñar acciones preventivas, mejorando la eficiencia y competitividad.
